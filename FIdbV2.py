@@ -2,7 +2,10 @@ import  streamlit as st
 import requests
 import pandas as pd
 
-
+st.set_page_config(page_title="Fixed Income Algorithm",
+                   page_icon="https://github.com/YWCo/logo/blob/main/YW_Firma_Mail.png?raw=true",
+                   layout="wide",
+                    )
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
