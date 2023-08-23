@@ -4,6 +4,6 @@ yfinance
 matplotlib
 wallstreet
 datetime
-optionprice
+option-price
 warnings
 time
