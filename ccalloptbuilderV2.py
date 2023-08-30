@@ -14,7 +14,7 @@ from optionprice import Option
 
 st.set_page_config(page_title="Covered Call Algorithm",
                    page_icon="https://github.com/YWCo/logo/blob/main/YW_Firma_Mail.png?raw=true",
-                   layout="wide",
+                   layout="centered",
                     )
 
 
