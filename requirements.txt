@@ -7,5 +7,3 @@ datetime
 option-price
 plotly-express
 opstrat
-fundamentalanalysis
-financetoolkit
