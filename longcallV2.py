@@ -668,6 +668,8 @@ if purpose_select==purpose[0]:
             remainder=premium_investment
         else: remainder=round(premium_investment%(last_price*max_contracts_buy*100),2)
         st.write("Possibility to buy up to",max_contracts_buy,"contract/s. The remainder cash position after the premium paid is",remainder,"USD.")
+        if max_contracts_buy==0:
+            st.write("Minimum premium amount reuqired is",round(last_price*100,2),"USD.")
         nr_contracts_buy=st.number_input("Enter amount of contracts to buy",min_value=0,max_value=max_contracts_buy,value=max_contracts_buy,step=1)
         
         #st.write("Based on the price and paramteres selected it is possible to buy up to : USD",last_price*nr_contracts*100,"in premium.")
